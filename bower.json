@@ -1,0 +1,17 @@
+{
+  "name": "slippyd.com",
+  "version": "10.0",
+  "homepage": "https://github.com/capnslipp/slippyd-com_v10",
+  "authors": [
+    "Slipp Douglas Thompson <git@slippyd.com>"
+  ],
+  "description": "slippyd.com v.10 website",
+  "license": "Copyright Slipp Douglas Thompson.  All rights reserved.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
