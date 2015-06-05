@@ -11,6 +11,8 @@
   },
   "private": true,
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  },
   "engines": {}
 }
