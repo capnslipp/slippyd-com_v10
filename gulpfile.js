@@ -17,6 +17,9 @@ const PATHS = (function createConstPATHS()
 	var css_glob = css_dir+'*';
 	
 	function Path(dir_or_dirs, glob_or_globs) {
+		if (Object.is(this, global))
+			throw arguments.callee.name+"() is a constructor; it can only be called with `new`."
+		
 		this.dir = dir_or_dirs;
 		this.glob = glob_or_globs;
 	}
