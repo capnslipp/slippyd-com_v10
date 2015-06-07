@@ -8,29 +8,29 @@ var sass = require('gulp-sass');
 
 const PATHS = (function createConstPATHS()
 {
-	var sass_dir = './source/**/';
-	var sass_globs = [
-		sass_dir+'*.sass',
-		sass_dir+'*.scss'
+	var sassDir = './source/**/';
+	var sassGlobs = [
+		sassDir+'*.sass',
+		sassDir+'*.scss'
 	];
 	
-	var css_dir = './compiled/css/';
-	var css_glob = css_dir+'*';
+	var cssDir = './compiled/css/';
+	var cssGlob = cssDir+'*';
 	
-	function Path(dir_or_dirs, glob_or_globs) {
+	function Path(dirOrDirs, globOrGlobs) {
 		if (Object.is(this, global))
 			throw arguments.callee.name+"() is a constructor; it can only be called with `new`."
 		
-		this.dir = dir_or_dirs;
-		this.glob = glob_or_globs;
+		this.dir = dirOrDirs;
+		this.glob = globOrGlobs;
 	}
 	
 	return {
 		dev: {
-			sass: new Path(sass_dir, sass_globs),
+			sass: new Path(sassDir, sassGlobs),
 		},
 		web: {
-			css: new Path(css_dir, css_glob),
+			css: new Path(cssDir, cssGlob),
 		},
 	};
 })();
