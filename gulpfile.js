@@ -1,4 +1,5 @@
-var gulp = require('gulp');
+var gulpHelpF = require('gulp-help');
+var gulp = gulpHelpF(require('gulp'));
 var sass = require('gulp-sass');
 
 
