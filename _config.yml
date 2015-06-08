@@ -1,0 +1,4 @@
+source: source/
+destination: compiled/
+
+timezone: EST5EDT
