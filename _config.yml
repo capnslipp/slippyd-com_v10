@@ -8,3 +8,5 @@ sass:
   trace_selectors: false # supercedes `line_comments`
   debug_info: false # supercedes `line_comments` & `trace_selectors`
   sourcemap: file # Not working.  More info at: https://github.com/jekyll/jekyll-sass-converter/issues/12
+  
+  sass_dir: './'
