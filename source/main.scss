@@ -11,17 +11,58 @@ body {
 
 
 #logo {
-	color: #234;
+	display: inline-block;
 	
 	font: 120px 'Carrosserie', Helvetica, sans-serif;
+	line-height: 0.75em;
+	font-kerning: normal; letter-spacing: -0.04em;
+	color: rgba(0, 0, 0, 0.8);
+	
+	padding: 0 4px;
+	
+	$capn-font-size: 50px;
+	$capn-line-size: 2.4 * $capn-font-size;
 	.capn {
-		font-size: 80px;
-		color: #333;
+		font-size: $capn-font-size;
+		line-height: $capn-line-size;
+		letter-spacing: -0.05em;
+		font-weight: 700;
 		
-		position: relative; top: -0.4em;
+		display: block; float: left;
+		vertical-align: baseline;
+		margin-right: 0.0em;
+	}
+	
+	.squiqqle, &.squiqqle {
+		$x-offset: -25px;
+		$first-y-offset: ($capn-line-size / 2 + $capn-font-size * 0.15);
+		$second-y-offset: $first-y-offset + 8px;;
+		background: url('graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png') repeat-x $x-offset $first-y-offset,
+			url('graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png') repeat-x $x-offset $second-y-offset;
 		
-		border-bottom: 10px solid #e43;
+	}
+	
+	.name {
+		float: right;
 		
-		margin-right: 0.1em;
+		.first, .middle, .last { display: block; }
+		.first {
+			font-weight: 700;
+		}
+		.middle {
+			font-weight: 400;
+			font-size: 0.6em; line-height: 0.7em; letter-spacing: -0.04em;
+		}
+		.last {
+			font-weight: 300;
+			font-size: 0.45em; line-height: 0.85em; letter-spacing: +0.02em;
+		}
 	}
 }
+
+
+
+//#logo { outline: 1px solid red; }
+//.capn { outline: 1px solid green; }
+//.name { outline: 1px solid blue; }
+
