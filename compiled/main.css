@@ -41,23 +41,29 @@ body {
     margin-right: 0.0em; }
   /* line 32 */
   #logo .squiqqle, #logo.squiqqle {
-    background: url("graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png") repeat-x -25px 67.5px, url("graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png") repeat-x -25px 75.5px; }
-  /* line 41 */
+    background: url("graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png") repeat-x 0px 67.5px, url("graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png") repeat-x -25px 75.5px;
+    animation: squiqqle 3s linear 0s infinite; }
+@keyframes squiqqle {
+  from {
+    background-position: 0px 67.5px, -25px 75.5px; }
+  to {
+    background-position: 86px 67.5px, -111px 75.5px; } }
+  /* line 54 */
   #logo .name {
     float: right; }
-    /* line 44 */
+    /* line 57 */
     #logo .name .first, #logo .name .middle, #logo .name .last {
       display: block; }
-    /* line 45 */
+    /* line 58 */
     #logo .name .first {
       font-weight: 700; }
-    /* line 48 */
+    /* line 61 */
     #logo .name .middle {
       font-weight: 400;
       font-size: 0.6em;
       line-height: 0.7em;
       letter-spacing: -0.04em; }
-    /* line 52 */
+    /* line 65 */
     #logo .name .last {
       font-weight: 300;
       font-size: 0.45em;
