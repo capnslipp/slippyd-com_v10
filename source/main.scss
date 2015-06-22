@@ -2,7 +2,7 @@
 ---
 
 
-@import 'fonts/carrosserie-bold';
+@import 'fonts/carrosserie';
 
 
 body {
@@ -11,9 +11,9 @@ body {
 
 
 #logo {
-	font: 120px 'carrosseriebold', Helvetica, sans-serif;
 	color: #234;
 	
+	font: 120px 'Carrosserie', Helvetica, sans-serif;
 	.capn {
 		font-size: 80px;
 		color: #333;

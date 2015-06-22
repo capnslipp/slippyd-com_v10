@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Carrosserie';
+	src: url('fonts/assets/carrosserie-bold.eot');
+	src:
+		url('fonts/assets/carrosserie-bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/assets/carrosserie-bold.woff') format('woff'),
+		url('fonts/assets/carrosserie-bold.ttf') format('truetype'),
+		url('fonts/assets/carrosserie-bold.svg#carrosseriebold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Carrosserie';
+	src: url('fonts/assets/carrosserie-regular.eot');
+	src:
+		url('fonts/assets/carrosserie-regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/assets/carrosserie-regular.woff') format('woff'),
+		url('fonts/assets/carrosserie-regular.ttf') format('truetype'),
+		url('fonts/assets/carrosserie-regular.svg#carrosserieregular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Carrosserie';
+	src: url('fonts/assets/carrosserie-light.eot');
+	src:
+		url('fonts/assets/carrosserie-light.eot?#iefix') format('embedded-opentype'),
+		url('fonts/assets/carrosserie-light.woff') format('woff'),
+		url('fonts/assets/carrosserie-light.ttf') format('truetype'),
+		url('fonts/assets/carrosserie-light.svg#carrosserielight') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
