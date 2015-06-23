@@ -16,11 +16,11 @@
   src: url("fonts/assets/carrosserie-light.eot?#iefix") format("embedded-opentype"), url("fonts/assets/carrosserie-light.woff") format("woff"), url("fonts/assets/carrosserie-light.ttf") format("truetype"), url("fonts/assets/carrosserie-light.svg#carrosserielight") format("svg");
   font-weight: 300;
   font-style: normal; }
-/* line 5 */
+/* line 6 */
 body {
   background: #eee; }
 
-/* line 10 */
+/* line 11 */
 #logo {
   position: relative !important;
   display: inline-block;
@@ -44,7 +44,7 @@ body {
     position: relative !important;
     display: inline-block !important;
     z-index: 100; }
-  /* line 24 */
+  /* line 25 */
   #logo > .box {
     position: absolute !important;
     z-index: 1;
@@ -60,7 +60,7 @@ body {
     left: 0px;
     right: 0px;
     border: 4px solid rgba(0, 0, 0, 0.8); }
-  /* line 32 */
+  /* line 33 */
   #logo.squiqqle {
     background: url("graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png") repeat-x 0px 81.5px, url("graphics/squiggle.5px-thick.ee5e2b-tr.86x15.png") repeat-x -25px 89.5px;
     animation: squiqqle 3s linear 0s infinite; }
@@ -69,10 +69,10 @@ body {
     background-position: 0px 81.5px, -25px 89.5px; }
   to {
     background-position: 86px 81.5px, -111px 89.5px; } }
-  /* line 57 */
+  /* line 58 */
   #logo > .cont {
     padding: 14px 10px 8px 10px; }
-    /* line 60 */
+    /* line 61 */
     #logo > .cont .capn {
       font-size: 50px;
       line-height: 120px;
@@ -82,22 +82,22 @@ body {
       float: left;
       vertical-align: baseline;
       margin-right: 8px; }
-    /* line 71 */
+    /* line 72 */
     #logo > .cont .name {
       float: right; }
-      /* line 74 */
+      /* line 75 */
       #logo > .cont .name .first, #logo > .cont .name .middle, #logo > .cont .name .last {
         display: block; }
-      /* line 75 */
+      /* line 76 */
       #logo > .cont .name .first {
         font-weight: 700; }
-      /* line 78 */
+      /* line 79 */
       #logo > .cont .name .middle {
         font-weight: 400;
         font-size: 0.6em;
         line-height: 0.7em;
         letter-spacing: -0.04em; }
-      /* line 82 */
+      /* line 83 */
       #logo > .cont .name .last {
         font-weight: 300;
         font-size: 0.45em;
