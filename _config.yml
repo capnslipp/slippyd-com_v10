@@ -3,6 +3,7 @@ destination: compiled/
 
 timezone: EST5EDT
 
+
 sass:
   line_comments: true
   trace_selectors: false # supercedes `line_comments`
@@ -10,3 +11,17 @@ sass:
   sourcemap: file # Not working.  More info at: https://github.com/jekyll/jekyll-sass-converter/issues/12
   
   sass_dir: './'
+
+
+collections:
+  projects:
+    output: true
+    permalink: /p/:path.html
+
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
