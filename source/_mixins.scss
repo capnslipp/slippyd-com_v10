@@ -1,0 +1,19 @@
+
+@mixin pane-back {
+	position: absolute !important;
+	z-index: 1;
+	width: auto; height: auto;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+@mixin pane-cont {
+	position: relative !important;
+	display: inline-block !important;
+	z-index: 100;
+}
+
+@mixin pane {
+	position: relative !important;
+	
+	> .back { @include pane-back; }
+	> .cont { @include pane-cont; }
+}
